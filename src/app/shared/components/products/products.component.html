@@ -1,0 +1,14 @@
+<button 
+[disabled]="isDisabled"
+(click)="getProductStatus()"
+class="btn btn-outline-info">Add Product</button>
+
+<hr>
+<p class="alert alert-info">
+    {{productAddStatus}}
+</p>
+
+<app-product></app-product>
+
+<hr>
+
